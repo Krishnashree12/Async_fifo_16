@@ -2,8 +2,8 @@
 project:
   title:        "Asynchronous FIFO Design"      # Project title
   author:       "Krishna"      # Your name
-  discord:      "A parameterized asynchronous FIFO implemented in Verilog"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  discord:      "krishnashreed_57610"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  description:  "A parameterized asynchronous FIFO implemented in Verilog"      # One line description of what your project does
   language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     100000000      # Clock frequency in Hz (or 0 if not applicable)
 

@@ -28,7 +28,7 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
-  # Inputs (ui[0] to ui[7])
+  # Inputs
   ui[0]: "wdata[0]"
   ui[1]: "wdata[1]"
   ui[2]: "wdata[2]"
@@ -37,8 +37,7 @@ pinout:
   ui[5]: "wdata[5]"
   ui[6]: "wdata[6]"
   ui[7]: "wdata[7]"
-
-  # Outputs (uo[0] to uo[7])
+  # Outputs
   uo[0]: "rdata[0]"
   uo[1]: "rdata[1]"
   uo[2]: "rdata[2]"
@@ -47,15 +46,15 @@ pinout:
   uo[5]: "rdata[5]"
   uo[6]: "rdata[6]"
   uo[7]: "rdata[7]"
-
-  # Bidirectional pins (uio[0] to uio[7]) representing control and status signals
+  # Bidirectional
   uio[0]: "rempty"
   uio[1]: "wfull"
-  uio[2]: ""            # Unused, leave blank
+  uio[2]: "Unused"
   uio[3]: "rrst_n"
   uio[4]: "wrst_n"
-  uio[5]: ""            # Unused, leave blank
+  uio[5]: "Unused"
   uio[6]: "rinc"
   uio[7]: "winc"
+
 # Do not change!
 yaml_version: 6
